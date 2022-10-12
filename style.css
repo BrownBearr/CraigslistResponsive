@@ -1,0 +1,220 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.topNav {
+    position: relative;
+    height: 50px;
+    padding: 15px;
+    background-color: purple;
+    
+  }
+  
+  .leftSide {
+    list-style: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  
+  .rightSide {
+    list-style: none;
+    text-align: right;
+    float: right;
+  }
+
+
+  .headTitle{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .menuItem {
+    display: inline-block;
+    margin: 0 10px;
+    font-family: 13px;
+    vertical-align: top;
+    color: white;
+    opacity: 0.75;
+  }
+
+  body {
+    font-family: Helvetica;
+  }
+
+  .logIn {
+    background: blue;  
+    border: 1px solid blue;
+    color: white;
+    font-weight: bold;
+    padding: 0px, 15px;
+    height: 30px;
+    margin: 10px;
+    margin-top: -50px;
+  }
+
+  .main{
+
+  }
+
+  .mainImageContainer{
+    text-align: left;
+    width: 25%;
+    border: 0;
+  }
+
+  .mainImage{
+      width: 300px;
+      height: auto;
+  }
+
+  .searchBox {
+    width: 400px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 20px;
+    z-index: 2;
+    height: 30px;
+    margin: 0 auto;
+  
+  }
+
+  .textInput {
+    border: 0;
+    outline: 0;
+    height: 40px;
+    vertical-align: middle;
+    width: calc(100% - 50px);
+  }
+
+  .locAndSearch{
+      justify-content: flex-start;
+  }
+
+  .searchIcon svg {
+    margin-top: 5px;
+    fill: gray;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+  }
+
+  .buttonGroup{
+      text-align: right;
+  }
+
+  .locationButton{
+      text-align: left;
+      width: fit-content;
+      padding-right: 5px;
+  }
+
+  .trending{
+      text-align: left;
+      margin-left: 15px;
+      padding-top: 15px;
+  }
+
+  .topics{
+      text-align: right;
+      margin-right: 15px;
+      margin-top: -20px;
+  }
+
+ .gallery{
+    margin: 25px;
+    text-align: left;
+
+ } 
+
+.saleImage{
+    width: 150px;
+    height: auto;
+}
+
+
+.sales{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.saleGallery2{
+    margin: 25px;
+    text-align: left;
+
+ } 
+ .gallery2{
+     margin-bottom: 50px;
+ }
+
+.sale2Image{
+    width: 150px;
+    height: auto;
+}
+
+
+.footerTitle{
+    color: white;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.footer{
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footItem{
+    color: white;
+    list-style: none;
+    align-items: center;
+}
+
+.footerRightSide{
+    list-style: none;
+}
+.footer-content {
+    display: flex;
+    justify-content: left;
+}
+
+@media screen and (max-width: 750px)
+{
+    .footer{
+        margin: 15px;
+        flex-wrap: wrap;
+    }
+
+    .saleGallery{
+        flex-wrap: wrap;
+    }
+    .saleGallery2{
+        flex-wrap: wrap;
+    }
+    
+    .intro-text{
+        font-size: 18px;
+    }
+    .saleImage{
+        width: 100%;
+    }
+    
+    .sale2Image{
+        width: 100%;
+    }
+
+    .topNav{
+        height: 75px;
+        padding: px;
+
+    }
+
+    .trending{
+        padding-top: 30px;
+    }
+
+}
